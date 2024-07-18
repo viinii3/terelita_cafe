@@ -1,0 +1,18 @@
+.btn-zap a img {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+    color: rgb(110, 240, 110);
+}
+
+/*Celulares*/
+@media screen and (max-width: 470px) {
+    .btn-zap a img {
+        width: 50px;
+        height: 50px;
+    }
+}

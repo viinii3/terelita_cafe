@@ -1,0 +1,30 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre h1{
+    text-align: center;
+    color: #3C190B;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sobre-paragrafo {
+    background-color: #00000011;
+    border-radius: 20px;
+    padding: 100px 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sobre-paragrafo p{
+    font-family: sans-serif;
+    color: #fff;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}

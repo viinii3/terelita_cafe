@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Carrousel from './components/Carrousel/Carrousel';
+import Contato from './components/Contato/Contato';
+import Footer from './components/Footer/Footer';
+import FooterNav from './components/FooterNav/FooterNav';
+import Home from './components/Home/Home';
+import Link from './components/Link/Link';
+import Produtos from './components/Produtos/Produtos';
+import Slide from './components/Slide/Slide';
+import Sobre from './components/Sobre/Sobre';
+import ZapButton from './components/ZapButton/ZapButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ZapButton/>
+      <Home/>
+      <Carrousel/>
+      <Sobre/>
+      <Produtos/>
+      <Link/>
+      <Slide/>
+      <Contato/>
+      <FooterNav/>
+      <Footer/>
     </div>
   );
 }

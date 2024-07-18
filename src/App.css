@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* BODY STYLE */
+body{
+    background-color: #849073;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* SCROLL STYLE */
+body::-webkit-scrollbar {
+    width: 10px;               /* largura da scrollbar */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body::-webkit-scrollbar-track {
+    background: #606953;        /* cor da track area */
 }
 
-.App-link {
-  color: #61dafb;
+body::-webkit-scrollbar-thumb {
+    background-color: #3C190B;    /* cor do scroll */
+    border-radius: 20px;       /* borda do scroll */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* SELEÇÃO DAS PALAVRAS */
+::selection {
+    background-color: #874E50;
+    color: #97A284;
 }

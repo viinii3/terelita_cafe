@@ -1,0 +1,30 @@
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.link h2{
+    color: #3D180B;
+    font-size: 35px;
+}
+
+.link p{
+    color: #3D180B;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.link a{
+    border: #3D180B solid 1px;
+    border-radius: 30px;
+    color: #3D180B;
+    text-decoration: none;
+    padding: 10px 40px;
+    box-shadow: 0px 4px 8px;
+    font-size: 18px;
+}

@@ -1,0 +1,236 @@
+.produtos h1{
+    text-align: center;
+    color: #3C190B;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.produtos-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.produto-container-box1{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.produto-container-box1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    background-color: #814649;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+}
+
+.produto-container-box1 a:hover{
+    background-color: #663437;
+    transition: all 0.2s ease-in-out;
+}
+
+.estilo1{
+    color: #22290F;
+}
+
+.estilo2{
+    color: #3D180B;
+}
+
+.produto-container-box1 h3{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.predef1{
+    color: #22290F;
+}
+
+.predef2{
+    color: #3D180B;
+}
+
+.produto-container-box1 p{
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0px;
+    font-family: sans-serif;
+}
+
+.produto-container-box1 img{
+    height: 450px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.produto-container-box2{
+    background-color: #97A284;
+    border-radius: 20px;
+}
+
+.produto-container-box2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    background-color: #3C190B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+}
+
+.produto-container-box2 a:hover{
+    background-color: rgba(77, 32, 14, 0.89);
+    transition: all 0.2s ease-in-out;
+}
+
+.estilo3{
+    color: #BBCBA5;
+}
+
+.estilo4{
+    color: #E0A7A7;
+}
+
+
+.produto-container-box2 h3{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.predef3{
+    color: #22290F;
+}
+
+.predef4{
+    color: #3D180B;
+}
+
+.produto-container-box2 p{
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.produto-container-box2 img{
+    height: 450px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.produto-container-box3{
+    background-color: #874E50;
+    border-radius: 20px;
+}
+
+.produto-container-box3 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    background-color: #9CA682;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+}
+
+
+.produto-container-box3 a:hover{
+    background-color: #7b8564;
+    transition: all 0.2s ease-in-out;
+}
+
+.estilo5{
+    color: #22290F;
+}
+
+.estilo6{
+    color: #3D180B;
+}
+
+.produto-container-box3 h3{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.predef5{
+    color: #BBCBA5;
+}
+
+.predef6{
+    color: #E0A7A7;
+}
+
+.produto-container-box3 p{
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.produto-container-box3 img{
+    height: 450px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.btn-verMais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.btn-verMais a{
+    background-color: #BBCBA5;
+    padding: 30px;
+    font-size: 25px;
+    color: #3D180B;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -6px rgba(0,0,0,0.75);
+}
+
+.btn-verMais a:hover{
+    background-color: #22290F;
+    color: #E0A7A7;
+    transition: all 0.2s ease-in-out;
+}
