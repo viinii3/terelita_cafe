@@ -230,7 +230,7 @@
 }
 
 .btn-verMais a:hover{
-    background-color: #22290F;
+    background-color: rgba(139, 160, 110, 0.904);
     color: #E0A7A7;
     transition: all 0.2s ease-in-out;
 }

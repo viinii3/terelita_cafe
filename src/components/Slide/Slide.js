@@ -1,4 +1,8 @@
 import './Slide.css'
+import lavoura from './lavoura.png'
+import cafe from './pe_cafe.png'
+import familiaAnimacao from './familia-animacao.png'
+import familiaFoto from './familia-foto.png'
 
 function Slide(){
     return(
@@ -10,16 +14,16 @@ function Slide(){
                     <input type="radio" name="radio-btn" id="radio3"></input>
                     <input type="radio" name="radio-btn" id="radio4"></input>
                     <div class="slide first">
-                        <img src={"./especial 2 (1)/1.png"} alt=""></img>
+                        <img src={lavoura} alt="Imagem da lavoura"></img>
                     </div>
                     <div class="slide">
-                        <img src={"./especial 2 (1)/2.png"} alt=""></img>
+                        <img src={cafe} alt="imagem do pé de café"></img>
                     </div>
                     <div class="slide">
-                        <img src={"./especial 2 (1)/4.png"} alt=""></img>
+                        <img src={familiaAnimacao} alt="arte da familia"></img>
                     </div>
                     <div class="slide">
-                        <img src={"./lavoura.png"} alt="imagem da lavoura"></img>
+                        <img src={familiaFoto} alt="imagem da lavoura"></img>
                     </div>
                 </div>
                 <div class="navigation-bar">

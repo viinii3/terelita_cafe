@@ -1,6 +1,7 @@
 import './Home.css'
 import logo from './logo.png'
 import { FaCartShopping } from "react-icons/fa6";
+import { Link } from 'react-scroll'
 
 function Home (){
     return(
@@ -11,13 +12,13 @@ function Home (){
         <div class="header-nav">
             <ul>
                 <li className='carShopAuto'>
-                    <a href="#sobre">Sobre</a>
+                    <Link to="sobre" smooth duration={500}>Sobre</Link>
                 </li>
                 <li className='carShopAuto'>
-                    <a href="#produtos">Produtos</a>
+                    <Link to="produtos" smooth duration={500}>Produtos</Link>
                 </li>
                 <li className='carShopAuto'>
-                    <a href="#contato">Contato</a>
+                    <Link to="contato" smooth duration={500}>Contato</Link>
                 </li>
                 <li className='carShopAuto'>
                     <a href="https://terelitacafe.lojavirtualnuvem.com.br/produtos/"><FaCartShopping/></a>

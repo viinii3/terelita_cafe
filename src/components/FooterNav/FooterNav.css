@@ -38,6 +38,11 @@
 .footer-nav-contact p{
     color: #3C190B;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-nav-contact p:hover{
+    color: #7a3a21;
 }
 
 .footer-nav-navigation{
@@ -60,6 +65,11 @@
     text-decoration: none;
     color: #3C190B;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-nav-navigation ul li a:hover{
+    color: #7a3a21;
 }
 
 .footer-nav-follow{
@@ -82,4 +92,8 @@
     text-decoration: none;
     color: #3C190B;
     font-size: 18px;
+}
+
+.footer-nav-follow ul li a:hover{
+    color: #7a3a21;
 }

@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { PiInstagramLogo } from "react-icons/pi";
 import { FaFacebook } from "react-icons/fa";
+import { Link } from 'react-scroll'
 
 function FooterNav(){
     return(
@@ -31,16 +32,16 @@ function FooterNav(){
             </div>
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <Link to="home" smooth duration={500}>Home</Link>
                 </li>
                 <li>
-                    <a href="#sobre">Sobre</a>
+                    <Link to="sobre" smooth duration={500}>Sobre</Link>
                 </li>
                 <li>
-                    <a href="#produtos">Produtos</a>
+                    <Link to="produtos" smooth duration={500}>Produtos</Link>
                 </li>
                 <li>
-                    <a href="#contato">Contato</a>
+                    <Link to="contato" smooth duration={500}>Contato</Link>
                 </li>
                 <li>
                     <a href="https://terelitacafe.lojavirtualnuvem.com.br/produtos/">Comprar</a>
