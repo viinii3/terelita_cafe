@@ -17,8 +17,8 @@ function App() {
       <Home/>
       <Carrousel/>
       <Sobre/>
-      <Produtos/>
       <Link/>
+      <Produtos/>
       <Slide/>
       <Contato/>
       <FooterNav/>

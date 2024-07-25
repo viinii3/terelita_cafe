@@ -20,17 +20,17 @@ function Produtos(){
             <div class="produto-container-box2">
                 <img src={imagem2} alt="cafe 1k"></img>
                     <p>Café clássico em grãos torrado - torra média - 1kg</p>
-                    <h3><span class="predef3">R$ </span><span class="predef4">58,00</span></h3>
+                    <h3><span class="predef3">R$ </span><span class="predef4">30,00</span></h3>
                     <div class="button">
-                        <a href="https://terelitacafe.lojavirtualnuvem.com.br/produtos/cafeclassicoemgraos/"><span class="estilo3">Com</span><span class="estilo4">prar</span></a>
+                        <a href="https://terelitacafe.lojavirtualnuvem.com.br/produtos/terelitacafemoido/"><span class="estilo3">Com</span><span class="estilo4">prar</span></a>
                     </div>
             </div>
             <div class="produto-container-box3">
                 <img src={imagem3} alt="cafe premium"></img>
                     <p>Café premium moído e torrado - torra média - 500g</p>
-                    <h3><span class="predef5">R$ </span><span class="predef6">30,00</span></h3>
+                    <h3><span class="predef5">R$ </span><span class="predef6">58,00</span></h3>
                     <div class="button">
-                        <a href="https://terelitacafe.lojavirtualnuvem.com.br/produtos/terelitacafemoido/"><span class="estilo5">Com</span><span class="estilo6">prar</span></a>
+                        <a href="https://terelitacafe.lojavirtualnuvem.com.br/produtos/cafeclassicoemgraos/"><span class="estilo5">Com</span><span class="estilo6">prar</span></a>
                     </div>
             </div>
         </div>
