@@ -1,0 +1,14 @@
+
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .footer-nav-follow{
+        display: none;
+    }
+}
+
+/* CELULARES */
+@media screen and (max-width: 767px){
+    .footer-nav{
+        display: none;
+    }
+}

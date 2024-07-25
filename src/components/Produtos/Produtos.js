@@ -1,4 +1,5 @@
 import './Produtos.css'
+import './ProdutosResponsive.css'
 import imagem1 from './imagem1produto.jpg'
 import imagem2 from './imagem2produto.jpg'
 import imagem3 from './imagem3produto.jpg'

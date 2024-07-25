@@ -1,4 +1,5 @@
 import './FooterNav.css'
+import './FooterNavResponsive.css'
 import logoFooter from './logo2.png'
 import { FaWhatsapp } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";

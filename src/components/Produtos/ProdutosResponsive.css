@@ -1,0 +1,124 @@
+
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .produtos-container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* PRODUTO 1 */
+    .produto-container-box1 a{
+        padding: 15px;
+        font-size: 24px;
+    }
+
+    .produto-container-box1 h3{
+        font-size: 24px;
+    }
+    .produto-container-box1 p{
+        font-size: 10px;
+    }
+    
+    .produto-container-box1 img{
+        height: 350px;
+    }
+    
+    /* PRODUTO 2 */
+    .produto-container-box2 a{
+        padding: 15px;
+        font-size: 24px;
+    }
+
+    .produto-container-box2 h3{
+        font-size: 24px;
+    }
+    .produto-container-box2 p{
+        font-size: 10px;
+    }
+    
+    .produto-container-box2 img{
+        height: 350px;
+    }
+    
+    /* PRODUTO 3 */
+    .produto-container-box3 a{
+        padding: 15px;
+        font-size: 24px;
+    }
+
+    .produto-container-box3 h3{
+        font-size: 24px;
+    }
+    .produto-container-box3 p{
+        font-size: 10px;
+    }
+    
+    .produto-container-box3 img{
+        height: 350px;
+    }
+
+    .btn-verMais a{
+        padding: 15px;
+        font-size: 24px;
+    }
+}
+
+/* CELULARES */
+@media screen and (max-width: 767px){
+    .produtos h1{
+        font-size: 20px;
+    }
+
+    /* PRODUTO 1 */
+    .produto-container-box1 a{
+        font-size: 18px;
+    }
+
+    .produto-container-box1 h3{
+        font-size: 18px;
+    }
+    .produto-container-box1 p{
+        font-size: 10px;
+    }
+    
+    .produto-container-box1 img{
+        height: 310px;
+    }
+    
+    /* PRODUTO 2 */
+    .produto-container-box2 a{
+        font-size: 18px;
+    }
+
+    .produto-container-box2 h3{
+        font-size: 18px;
+    }
+    .produto-container-box2 p{
+        font-size: 10px;
+    }
+    
+    .produto-container-box2 img{
+        height: 310px;
+    }
+    
+    /* PRODUTO 3 */
+    .produto-container-box3 a{
+        font-size: 18px;
+    }
+
+    .produto-container-box3 h3{
+        font-size: 18px;
+    }
+    .produto-container-box3 p{
+        font-size: 10px;
+    }
+    
+    .produto-container-box3 img{
+        height: 310px;
+    }
+
+    .btn-verMais a{
+        padding: 15px;
+        font-size: 18px;
+    }
+}

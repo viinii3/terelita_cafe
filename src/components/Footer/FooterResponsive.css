@@ -1,0 +1,7 @@
+/* CELULARES */
+@media screen and (max-width: 767px){
+    .footer{
+        padding: 15px;
+        font-size: 12px;
+    }
+}

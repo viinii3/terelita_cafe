@@ -1,4 +1,5 @@
 import './Footer.css'
+import './FooterResponsive.css'
 
 function Footer(){
     return(

@@ -1,4 +1,5 @@
 import './Slide.css'
+import './SlideResponsive.css'
 import lavoura from './lavoura.png'
 import cafe from './pe_cafe.png'
 import familiaAnimacao from './familia-animacao.png'

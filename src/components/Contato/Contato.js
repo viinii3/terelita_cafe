@@ -1,4 +1,5 @@
 import './Contato.css'
+import './ContatoResponsive.css'
 import { useState } from 'react'
 
 function Contato(){

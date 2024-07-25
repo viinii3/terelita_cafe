@@ -1,4 +1,5 @@
 import './Sobre.css'
+import './SobreResponsive.css'
 
 function Sobre(){
     return(

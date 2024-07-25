@@ -1,4 +1,5 @@
 import './Home.css'
+import './HomeResponsive.css'
 import logo from './logo.png'
 import { FaCartShopping } from "react-icons/fa6";
 import { Link } from 'react-scroll'

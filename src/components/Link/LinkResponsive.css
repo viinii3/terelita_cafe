@@ -1,0 +1,16 @@
+/* CELULARES */
+@media screen and (max-width: 767px){
+    .link h2{
+        font-size: 24px;
+    }
+    
+    .link p{
+        font-size: 12px;
+    }
+    
+    .link a{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+    
+}

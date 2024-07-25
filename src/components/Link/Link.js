@@ -1,4 +1,5 @@
 import './Link.css'
+import './LinkResponsive.css'
 import { LiaInstagram } from "react-icons/lia";
 
 function Link(){
