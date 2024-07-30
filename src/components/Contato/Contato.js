@@ -1,6 +1,7 @@
 import './Contato.css'
 import './ContatoResponsive.css'
 import { useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 function Contato(){
     const [name, setName] = useState('')
@@ -10,6 +11,29 @@ function Contato(){
 
     function sendEmail(e){
         e.preventDefault();
+
+        const templateParams = {
+            from_name: name,
+            menssage: menssage,
+            tel: tel,
+            email: email
+        }
+
+        emailjs.send(
+            "service_miy7mep", 
+            "template_ie3wi5q", 
+            templateParams, 
+            "iPhIQBftscAnU7FNG"
+        )
+        .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            setName('')
+            setEmail('')
+            setMenssage('')
+            setTel('')
+        }, (err) => {
+            console.log('FAILED: ', err);
+        })
     }
 
     return(
